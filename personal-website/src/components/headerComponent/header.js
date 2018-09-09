@@ -10,9 +10,6 @@ class Header extends Component {
               <a href="/">HOME</a>
             </li>
             <li>
-              <a href="Projects">PROJECTS</a>
-            </li>
-            <li>
               <a href="https://drive.google.com/file/d/11RnzZRcJOyB1kInKImCXO49Vwpa-s7ZC/view?usp=sharing">RESUME</a>
             </li>
             <li>
