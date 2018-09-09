@@ -1,16 +1,10 @@
+
 $black: #010000;
 $white: #ffffff;
 $lightGrey: #e6e6e6;
 $darkGrey: #333;
 $red: #ff1755;
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  color: $black;
-  font-weight: 400;
-  font-style: normal;
-}
+$blueGreen: #0d98ba;
 
 @mixin translateY($e) {
   -webkit-transform: translateY($e);
@@ -19,7 +13,21 @@ body {
 }
 
 @mixin transition($e) {
-  -webkit-transform:$e;
-    -moz-transform:$e;
-        transform:$e;
+  -webkit-transition:$e;
+    -moz-transition:$e;
+        transition:$e;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caveat Brush', cursive;
+  font-family: 'Rock Salt', cursive;
+  font-size: 18px;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid {
+  line-height: 24px;
 }
