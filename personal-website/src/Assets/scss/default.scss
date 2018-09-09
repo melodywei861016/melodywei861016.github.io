@@ -57,7 +57,7 @@ header {
 }
 
 body {
-  height: 50%;
+  height: 2000px;
   background: $white;
   h1 {
     font-family: 'Rock Salt';
@@ -67,6 +67,9 @@ body {
   }
   p {
     display: flex;
+    margin-bottom:70px;
+    white-space:nowrap;
+    overflow:hidden;
   }
   p1 {
     margin-top: 30px;
@@ -74,10 +77,30 @@ body {
   }
   p2 {
     font-family: 'Ubuntu', sans-serif;
+    color: $darkGrey;
     font-size: 20px;
     margin-left: 70px;
     margin-top: 80px;
     height: 10px;
+
+  }
+  p3 {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 150px;
+  }
+  p5 {
+    display:flex;
+    margin-top: 30px;
+    margin-left:125px;
+  }
+  p4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-left:50px;
+    margin-top:20px;
+    line-height: 30px;
+    color: $lightGrey;
   }
 }
 footer {
