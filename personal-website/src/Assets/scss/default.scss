@@ -61,12 +61,22 @@ body {
   background: $white;
   h1 {
     font-family: 'Rock Salt';
-    margin-top: 50px;
-    margin-left: 100px;
-    font-size: 80px;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 30px;
   }
   p {
+    display: flex;
+  }
+  p1 {
     margin-top: 30px;
-    margin-Left: 70px;
+    margin-Left: 130px;
+  }
+  p2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 80px;
+    height: 10px;
   }
 }
