@@ -1,0 +1,151 @@
+@import "_config.scss";
+
+header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background: $white;
+  color: $white;
+  height: 60px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+
+  // .logo {
+  //   position: absolute;
+  //   top: 50%; left: 70px;
+  //   font-size: 80px;
+  //   font-family: 'Caveat Brush', cursive;
+  //   @include translateY(-50%);
+  // }
+  nav,
+  nav ul,
+  nav ul li {
+    white-space:nowrap;
+    overflow:hidden;
+  }
+  nav {
+    position: absolute;
+    top: 50%; right: 15px;
+    margin-top:10px;
+    @include translateY(-50%);
+
+    ul li {
+      display: inline-block;
+      margin-right:10px;
+      padding:10px;
+
+
+      &.last {
+        margin: 0;
+      }
+
+      a {
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: normal;
+        color: $black;
+        text-decoration: none;
+        @include transition(.01s ease-in-out);
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: none;
+          color: $blueGreen;
+          @include transition(.01s ease-in-out);
+        }
+      }
+    }
+  }
+}
+
+body {
+  height: 500px;
+  background: $white;
+  p {
+    display: flex;
+    margin-bottom:70px;
+    white-space:nowrap;
+    background: $white;
+    margin-left:80px;
+    margin-right: 80px;
+    margin-top:50px;
+    padding-bottom:50px;
+  }
+    p0 {
+      margin-top: 70px;
+      padding-left: 130px;
+    }
+    p1 {
+      display: flex;
+      font-family: 'Ubuntu', sans-serif;
+      margin-top: 30px;
+      padding-left: 70px;
+      font-size: 50px;
+      color: $black;
+      a {
+        font-size: 40px;
+        color: $black;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+          color: $blueGreen;
+          @include transition(.01s ease-in-out);
+        }
+      }
+    }
+    p2 {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      color: $lightGrey;
+      font-size: 20px;
+      padding-left: 70px;
+      margin-top: 100px;
+      height: 10px;
+      line-height:35px;
+      position: absolute;
+
+      u1 {
+        a:hover{
+          color: #FF6633;
+          @include transition(.01s ease-in-out);
+        }
+      }
+      u2 {
+        a:hover{
+          color: #CC99FF;
+          @include transition(.01s ease-in-out);
+        }
+      }
+      u3 {
+        a:hover{
+          color: #33CCFF;
+          @include transition(.01s ease-in-out);
+        }
+      }
+    }
+  p3 {
+    display: flex;
+    margin-left:100px;
+    // font-size: 30px;
+    // font-family: 'Ubuntu', sans-serif;
+    // margin-left: 100px;
+    margin-top: 200px;
+    p4 {
+      margin-right: 50px;
+    }
+    p5 {
+      margin-right: 50px;
+    }
+    p6 {
+
+    }
+  }
+  yarn_gif {
+    // border:10px outset silver;
+  }
+}
+footer {
+  height:100%;
+  background: $black;
+}
