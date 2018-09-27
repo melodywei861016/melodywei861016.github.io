@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import ProPic from '../../Assets/images/pro_pic_circle.png';
 import YarnGif from '../../Assets/images/yarn_giphy.gif';
 import YarnIcon from '../../Assets/images/yarn_icon.png';
 import YarnSquare from '../../Assets/images/yarn_square.jpg';
+=======
+>>>>>>> 0cc67d224dc005161a060b559609e310387b6b4d
 import Mammoth from '../../Assets/images/mammoth.png';
 import Google from '../../Assets/images/google.png';
 import Blueprint from '../../Assets/images/blueprint.png';

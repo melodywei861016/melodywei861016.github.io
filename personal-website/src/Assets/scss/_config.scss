@@ -1,0 +1,33 @@
+
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #585555;
+$darkGrey: #403b3b;
+$red: #ff1755;
+$blueGreen: #0d98ba;
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+        transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition:$e;
+    -moz-transition:$e;
+        transition:$e;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caveat Brush', cursive;
+  font-family: 'Rock Salt', cursive;
+  font-size: 18px;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid {
+  line-height: 24px;
+}
