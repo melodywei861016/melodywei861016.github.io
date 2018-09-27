@@ -2,11 +2,13 @@
 
 header {
   position: relative;
-  display: block;
+  display: inline-block;
   width: 100%;
-  background: $black;
+  background: $white;
   color: $white;
-  height: 70px;
+  height: 60px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 
   // .logo {
   //   position: absolute;
@@ -18,14 +20,13 @@ header {
   nav,
   nav ul,
   nav ul li {
-    margin:0;
-    padding:0;
     white-space:nowrap;
     overflow:hidden;
   }
   nav {
     position: absolute;
     top: 50%; right: 15px;
+    margin-top:10px;
     @include translateY(-50%);
 
     ul li {
@@ -33,15 +34,16 @@ header {
       margin-right:10px;
       padding:10px;
 
+
       &.last {
         margin: 0;
       }
 
       a {
-        font-size: 30px;
-        font-family: 'Caveat Brush';
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
         line-height: normal;
-        color: $white;
+        color: $black;
         text-decoration: none;
         @include transition(.2s ease-in-out);
         cursor: pointer;
@@ -57,50 +59,71 @@ header {
 }
 
 body {
-  height: 2000px;
+  height: 500px;
   background: $white;
-  h1 {
-    font-family: 'Rock Salt';
-    margin-top: 50px;
-    margin-left: 100px;
-    font-size: 50px;
-  }
   p {
     display: flex;
     margin-bottom:70px;
     white-space:nowrap;
-    overflow:hidden;
+    background: $white;
+    margin-left:80px;
+    margin-right: 80px;
+    margin-top:50px;
+    padding-bottom:50px;
   }
-  p1 {
-    margin-top: 30px;
-    margin-Left: 130px;
-  }
-  p2 {
-    font-family: 'Ubuntu', sans-serif;
-    color: $darkGrey;
-    font-size: 20px;
-    margin-left: 70px;
-    margin-top: 80px;
-    height: 10px;
-
-  }
+    p0 {
+      margin-top: 70px;
+      padding-left: 130px;
+    }
+    p1 {
+      display: flex;
+      font-family: 'Ubuntu', sans-serif;
+      margin-top: 30px;
+      padding-left: 70px;
+      font-size: 50px;
+      color: $black;
+      a {
+        font-size: 40px;
+        color: $black;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+          color: $blueGreen;
+          @include transition(.2s ease-in-out);
+        }
+      }
+    }
+    p2 {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      color: $lightGrey;
+      font-size: 20px;
+      padding-left: 70px;
+      margin-top: 100px;
+      height: 10px;
+      line-height:35px;
+      position: absolute;
+    }
   p3 {
-    font-size: 50px;
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 150px;
+    display: flex;
+    margin-left:100px;
+    // font-size: 30px;
+    // font-family: 'Ubuntu', sans-serif;
+    // margin-left: 100px;
+    margin-top: 200px;
+    p4 {
+      margin-right: 50px;
+    }
+    p5 {
+      margin-right: 50px;
+    }
+    p6 {
+
+    }
   }
-  p5 {
-    display:flex;
-    margin-top: 30px;
-    margin-left:125px;
-  }
-  p4 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    margin-left:50px;
-    margin-top:20px;
-    line-height: 30px;
-    color: $lightGrey;
+  yarn_gif {
+    // border:10px outset silver;
   }
 }
 footer {

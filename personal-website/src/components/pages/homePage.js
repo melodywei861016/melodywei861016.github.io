@@ -2,48 +2,39 @@ import React, { Component } from 'react';
 import ProPic from '../../Assets/images/pro_pic_circle.png';
 import YarnGif from '../../Assets/images/yarn_giphy.gif';
 import YarnIcon from '../../Assets/images/yarn_icon.png';
+import YarnSquare from '../../Assets/images/yarn_square.jpg';
+import Mammoth from '../../Assets/images/mammoth.png';
+import Google from '../../Assets/images/google.png';
+import Blueprint from '../../Assets/images/blueprint.png';
 
 class Homepage extends Component {
   render() {
     return (
       <div className="homepage">
-        <h1>
-          Melody Wei
-        </h1>
         <p>
           <p1>
-            <img src={ProPic} width="200" height="200"/>
+            <a href="/">
+              <b>Melody Wei</b>
+            </a>
           </p1>
           <p2>
-            <b>Hello!</b> I'm a junior studying EECS at UC Berkeley. I am looking for an internship for <br/>
-            summer 2019 and am interested in frontend and UI design. I've developed several <br/>
-            mobile and web applications, and interned at Google as an Engineering Practicum <br/>
-            Intern and at Mammoth Media as an Android Developer Intern. <br/>
+            <b>Hello!</b> I'm a junior studying Electrical Engineering and Computer Science at UC Berkeley.<br/>
+            Currently looking for a software engineering internship for summer 2019 and am <br/> interested in frontend & mobile/web development.
+            Interned as Engineering Practicum <br/>Intern at <font color="#FF3300"><b>Google</b></font> in summer 2017, and as Android Developer Intern at <font color="#9933FF"><b>Mammoth Media</b></font> <br/>in summer 2018.
+            I also developed mobile/web apps for <font color="#3366FF"><b>Blueprint, Technology for Nonprofit</b></font>.
           </p2>
         </p>
         <p3>
-          <b>Projects</b>
-        </p3>
-        <p5>
-          <img src={YarnIcon} width="250" height="250"/>
           <p4>
-            <ul>
-              <li>
-                Android Studio using Java, Javascript, HTML/CSS <br/>
-              </li>
-              <li>
-                Developed new frontend features for Android app Yarn (ex. fullscreen <br/>
-                expansion of images in chat screens when tapped)<br/>
-              </li>
-              <li>
-                Redesigned UI for Yarn’s different screens (ex. Updated Yarn’s splash <br/>
-                screen and catalog display, redesigned Yarn’s chat screen with animations, <br/>
-                new chat bubbles shapes and colors, left/right alignment of chat bubbles, <br/>
-                character avatars, etc) <br/>
-              </li>
-            </ul>
+            <img src={Mammoth} width="300" height="170"/>
           </p4>
-        </p5>
+          <p5>
+            <img src={Google} width="300" height="170"/>
+          </p5>
+          <p6>
+            <img src={Blueprint} width="300" height="170"/>
+          </p6>
+        </p3>
       </div>
     );
 

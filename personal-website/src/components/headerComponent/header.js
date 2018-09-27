@@ -7,16 +7,19 @@ class Header extends Component {
         <nav>
           <ul>
             <li className="first">
-              <a href="/">HOME</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/11RnzZRcJOyB1kInKImCXO49Vwpa-s7ZC/view?usp=sharing">RESUME</a>
+              <a href="https://drive.google.com/file/d/1GZLKKplUTg4UdfO5pmIfIHXHMmyC1ytV/view?usp=sharing">Resume</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/wei-melody/">LINKEDIN</a>
+              <a href="https://www.linkedin.com/in/wei-melody/">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/melodywei861016">Github</a>
             </li>
             <li className="last">
-              <a href="https://github.com/melodywei861016">GITHUB</a>
+              <a href="mailto:melodywei861016@berkeley.edu">Contact Me</a>
             </li>
           </ul>
         </nav>
