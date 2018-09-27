@@ -1,13 +1,7 @@
 {
-  "main.css": "static/css/main.de8e8433.css",
-  "main.css.map": "static/css/main.de8e8433.css.map",
-  "main.js": "static/js/main.7795fb1f.js",
-  "main.js.map": "static/js/main.7795fb1f.js.map",
-  "static/media/blueprint.png": "static/media/blueprint.ac0087f8.png",
-  "static/media/google.png": "static/media/google.38e0023a.png",
-  "static/media/mammoth.png": "static/media/mammoth.d8b37258.png",
-  "static/media/pro_pic_circle.png": "static/media/pro_pic_circle.28b6bd6e.png",
-  "static/media/yarn_giphy.gif": "static/media/yarn_giphy.0ad7e215.gif",
-  "static/media/yarn_icon.png": "static/media/yarn_icon.c71e5dab.png",
-  "static/media/yarn_square.jpg": "static/media/yarn_square.5db3a789.jpg"
+  "main.css": "static/css/main.c17080f1.css",
+  "main.css.map": "static/css/main.c17080f1.css.map",
+  "main.js": "static/js/main.87c135b1.js",
+  "main.js.map": "static/js/main.87c135b1.js.map",
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
 }
