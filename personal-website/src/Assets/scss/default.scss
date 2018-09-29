@@ -106,20 +106,26 @@ body {
       position: absolute;
 
       u1 {
-        a:hover{
-          color: #FF6633;
+        color: #FF3300;
+        &:hover{
+          text-decoration: underline;
+          color: #FF9966;
           @include transition(.01s ease-in-out);
         }
       }
       u2 {
-        a:hover{
+        color: #9933FF;
+        &:hover{
+          text-decoration: underline;
           color: #CC99FF;
           @include transition(.01s ease-in-out);
         }
       }
       u3 {
-        a:hover{
-          color: #33CCFF;
+        color: #3366FF;
+        &:hover{
+          text-decoration: underline;
+          color: #0099FF;
           @include transition(.01s ease-in-out);
         }
       }
@@ -134,11 +140,41 @@ body {
     p4 {
       margin-right: 50px;
     }
-    p5 {
+    .mammothDiv {
+      background-image: url(../../Assets/images/mammoth.png);
+      width: 300;
+      height: 170
+    }
+    .mammoth {
+      margin-right: 50px;
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      -moz-transition: opacity .25s ease-in-out;
+      -webkit-transition: opacity .25s ease-in-out;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .text1{
+    	width:340px;
+    	height:217px;
+    	color:$black;
+    	opacity:1;
+    }
+    .mammoth:hover .text1 {
+    	opacity:1;
+    	text-align:justify;
+    	color:$black;
+    	font-size:20px;
+    	font-weight:700;
+    	font-family:"Times New Roman", Times, serif;
+    	padding:30px;
+    }
+    google {
       margin-right: 50px;
     }
-    p6 {
-
+    blueprint {
+      margin-left:50px;
     }
   }
   yarn_gif {
