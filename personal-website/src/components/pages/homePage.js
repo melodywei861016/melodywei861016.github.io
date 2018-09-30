@@ -21,10 +21,17 @@ class Homepage extends Component {
           </p2>
         </p>
         <p3>
-            <img src={Mammoth} width="300" height="170" class="mammoth"/>
-            <img src={Google} width="300" height="170" class="google"/>
-            <img src={Blueprint} width="300" height="170" class="blueprint"/>
+            <a href="/Mammoth"><img src={Mammoth} width="300" height="170" class="mammoth"/></a>
+            <a href="/Google"><img src={Google} width="300" height="170" class="google"/></a>
+            <a href="/Blueprint"><img src={Blueprint} width="300" height="170" class="blueprint"/></a>
         </p3>
+        <div className="captions">
+          <ul>
+            <li>Mammoth Media</li>
+            <li>Google</li>
+            <li className="blueprint_cap">Blueprint</li>
+          </ul>
+        </div>
       </div>
     );
 
