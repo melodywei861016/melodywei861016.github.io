@@ -10,7 +10,7 @@ class Header extends Component {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1GZLKKplUTg4UdfO5pmIfIHXHMmyC1ytV/view?usp=sharing">Resume</a>
+              <a href="https://drive.google.com/file/d/1cjpJiCnD2SLM1PeMDCG8cvBlU0KJlK8O/view?usp=sharing">Resume</a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/wei-melody/">LinkedIn</a>
