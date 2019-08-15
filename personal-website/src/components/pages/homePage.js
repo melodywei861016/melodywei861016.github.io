@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Mammoth from '../../Assets/images/mammoth.png';
 import Google from '../../Assets/images/google.png';
 import Blueprint from '../../Assets/images/blueprint.png';
-import Card from "react-bootstrap/Card";
 
 class Homepage extends Component {
   render() {
