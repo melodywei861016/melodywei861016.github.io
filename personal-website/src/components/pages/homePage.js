@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Mammoth from '../../Assets/images/mammoth.png';
 import Google from '../../Assets/images/google.png';
 import Blueprint from '../../Assets/images/blueprint.png';
+import Card from "react-bootstrap/Card";
 
 class Homepage extends Component {
   render() {
@@ -14,10 +15,10 @@ class Homepage extends Component {
             </a>
           </p1>
           <p2>
-            <b>Hello!</b> I'm a junior studying Electrical Engineering and Computer Science at UC Berkeley.<br/>
-            Currently looking for a software engineering internship for Summer 2019 and am <br/> interested in frontend & mobile/web development.
-            Interned as Engineering Practicum <br/>Intern at <a href="/Google"><u1><b>Google</b></u1></a> in Summer 2017, and as Android Developer Intern at <a href="/Mammoth"><u2><b>Mammoth Media</b><br/></u2></a>in summer 2018.
-            I also developed mobile/web apps for <a href="/Blueprint"><u3><b>Blueprint, Technology for Nonprofit</b></u3></a>.
+            <b>Hello!</b> I'm a senior studying Electrical Engineering and Computer Science at UC Berkeley.<br/>
+            Currently looking for software engineer full time opportunities for 2020 and am <br/> interested in frontend & mobile/web development.
+            Interned as Engineering Practicum <br/>Intern at <a href="/Google"><u1><b>Google</b></u1></a> in Summer 2017, as Android Developer Intern at <a href="/Mammoth"><u2><b>Mammoth Media</b><br/></u2></a>in Summer 2018,
+            and as Software Engineer Intern at Microsoft. I also developed mobile <br/> and web apps for <a href="/Blueprint"><u3><b>Blueprint, Technology for Nonprofit</b></u3></a>.
           </p2>
         </p>
         <p3>
@@ -32,6 +33,16 @@ class Homepage extends Component {
             <li className="blueprint_cap">Blueprint</li>
           </ul>
         </div>
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </div>
     );
 
