@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.69aff68a.css",
-  "main.css.map": "static/css/main.69aff68a.css.map",
-  "main.js": "static/js/main.f2080fd1.js",
-  "main.js.map": "static/js/main.f2080fd1.js.map",
-  "static/media/blueprint.png": "static/media/blueprint.ac0087f8.png",
-  "static/media/google.png": "static/media/google.38e0023a.png",
-  "static/media/mammoth.png": "static/media/mammoth.d8b37258.png"
+  "main.css": "static/css/main.cb3ee555.css",
+  "main.css.map": "static/css/main.cb3ee555.css.map",
+  "main.js": "static/js/main.2705e51f.js",
+  "main.js.map": "static/js/main.2705e51f.js.map",
+  "static/media/blueprint.png": "static/media/blueprint.5842ba58.png",
+  "static/media/down_arrow.png": "static/media/down_arrow.9170af05.png",
+  "static/media/google.png": "static/media/google.9fa5ca62.png",
+  "static/media/mammoth.png": "static/media/mammoth.8a0b9df0.png",
+  "static/media/microsoft.png": "static/media/microsoft.f8050b86.png"
 }
