@@ -4,7 +4,6 @@ import Google from '../../Assets/images/google.png';
 import Blueprint from '../../Assets/images/blueprint.png';
 import Microsoft from '../../Assets/images/microsoft.png';
 import DownArrow from '../../Assets/images/down_arrow.png'
-import CardDiv from '../CardDiv.js';
 
 class Homepage extends Component {
   render() {
