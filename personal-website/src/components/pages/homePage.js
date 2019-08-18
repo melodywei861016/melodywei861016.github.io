@@ -3,6 +3,10 @@ import Mammoth from '../../Assets/images/mammoth.png';
 import Google from '../../Assets/images/google.png';
 import Blueprint from '../../Assets/images/blueprint.png';
 import Microsoft from '../../Assets/images/microsoft.png';
+import Dream from '../../Assets/images/dream.png';
+import Veterans360 from '../../Assets/images/veterans360.png';
+import Sfai from '../../Assets/images/sfai.png';
+import Homepointr from '../../Assets/images/homepointr.gif';
 import DownArrow from '../../Assets/images/down_arrow.png'
 
 class Homepage extends Component {
@@ -76,6 +80,70 @@ class Homepage extends Component {
               </div>
             </div>
         </div>
+        <div class="col-md-6" style={{display: "inline-block", marginTop: 30}}>
+          <div class="card" style={{ width: 590, height: 300}}>
+            <img class="card-img-top" src={Dream} width="280" height="270" alt="Card image cap" style={{ marginLeft: 20, marginRight: 10, verticalAlign: "top", marginTop: 15 }}/>
+            <div class="card-block" style={{display: "inline-block"}}>
+              <p class="card-title">
+                <p4 style={{color: "#3366FF"}}><b>Dream</b></p4>
+                <p5 style={{color: "#0099FF"}}>Blueprint Developer</p5>
+              </p>
+              <p6 class="card-text" style={{ width: 230 }}>
+                I developed an offline mobile app that allows teachers in the Dominican Republic to take attendance,
+                keep track of records more eficiently. (Frontend: React Native // Backend: Ruby on Rails)
+              </p6>
+              <a href="https://github.com/calblueprint/dream-mobile" class="btn btn-primary" style={{backgroundColor: "#3366FF", borderRadius: 25, marginTop: 15}}>Github</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-6" style={{display: "inline-block", marginTop: 30}}>
+        <div class="card" style={{ width: 590, height: 350}}>
+          <img class="card-img-top" src={Veterans360} width="280" height="310" alt="Card image cap" style={{ marginLeft: 20, marginRight: 10, verticalAlign: "top", marginTop: 15 }}/>
+          <div class="card-block" style={{display: "inline-block"}}>
+            <p class="card-title">
+              <p4 style={{color: "#3366FF"}}><b>Veterans360</b></p4>
+              <p5 style={{color: "#0099FF"}}>Blueprint Developer</p5>
+            </p>
+            <p6 class="card-text" style={{ width: 230 }}>
+              I developed a social media mobile app for veterans that allows them to connect with other
+              veteran users, learn about events and opportunities in the community, and share resources via the app. (Frontend: React Native // Backend: Ruby on Rails)
+            </p6>
+            <a href="https://github.com/calblueprint/veterans360-mobile" class="btn btn-primary" style={{backgroundColor: "#3366FF", borderRadius: 25, marginTop: 15}}>Github</a>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-6" style={{display: "inline-block", marginTop: 30}}>
+      <div class="card" style={{ width: 590, height: 350}}>
+        <img class="card-img-top" src={Sfai} width="280" height="310" alt="Card image cap" style={{ marginLeft: 20, marginRight: 10, verticalAlign: "top", marginTop: 15 }}/>
+        <div class="card-block" style={{display: "inline-block"}}>
+          <p class="card-title">
+            <p4 style={{color: "#3366FF"}}><b>San Francisco Art Institute</b></p4>
+            <p5 style={{color: "#0099FF"}}>Blueprint Developer</p5>
+          </p>
+          <p6 class="card-text" style={{ width: 230 }}>
+            I developed a website for students at San Francisco Art Institute that allows them to display and sell
+their artworks online, as well as communicate with buyers in order to complete the transactions. (Frontend: React // Backend: Ruby on Rails)
+          </p6>
+          <a href="https://github.com/SFAI/artistregistry" class="btn btn-primary" style={{backgroundColor: "#3366FF", borderRadius: 25, marginTop: 15}}>Github</a>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-6" style={{display: "inline-block", marginTop: 30}}>
+    <div class="card" style={{ width: 590, height: 350}}>
+      <img class="card-img-top" src={Homepointr} width="280" height="310" alt="Card image cap" style={{ marginLeft: 20, marginRight: 10, verticalAlign: "top", marginTop: 15 }}/>
+      <div class="card-block" style={{display: "inline-block"}}>
+        <p class="card-title">
+          <p4 style={{color: "#3366FF"}}><b>Homepointr</b></p4>
+          <p5 style={{color: "#0099FF"}}>Blueprint Developer</p5>
+        </p>
+        <p6 class="card-text" style={{ width: 230 }}>
+          I developed a website that helps match homeless individuals with available housing, allowing
+better facilitation of the process and communication and better organization of large amount of data. (Frontend: React // Backend: Ruby on Rails)
+        </p6>
+        <a href="https://github.com/calblueprint/HomePointrCIC" class="btn btn-primary" style={{backgroundColor: "#3366FF", borderRadius: 25, marginTop: 15}}>Github</a>
+      </div>
+    </div>
+</div>
           </div>
         </div>
       </div>
