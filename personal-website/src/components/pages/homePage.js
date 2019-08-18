@@ -69,8 +69,8 @@ class Homepage extends Component {
                   <p5 style={{color: "#32CD32"}}>Software Engineer Intern</p5>
                 </p>
                 <p6 class="card-text" style={{ width: 230 }}>
-                  Yarn is the interactive app that provides daily narratives through serialized mobile fiction.
-                  I developed new frontend features for Android Yarn and redesigned the UI for the story screen.
+                  I built a first-party diagnostics Add-in for Excel that fetches runtime log info internally and displays it with a user-friendly web UI.
+                  The app includes filter and search bar features.
                 </p6>
                 <a href="https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview" class="btn btn-primary" style={{backgroundColor: "#228B22", borderRadius: 25, marginTop: 15}}>More About Excel Addin</a>
               </div>
