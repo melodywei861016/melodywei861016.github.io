@@ -1,1 +1,258 @@
-body{font-family:Ubuntu,sans-serif;font-family:'Caveat Brush',cursive;font-family:'Rock Salt',cursive;font-size:18px;color:#010000;font-weight:400;font-style:normal}.container-fluid{line-height:24px}header{position:relative;display:inline-block;width:100%;background:#fff;color:#fff;height:60px;border-bottom-style:solid;border-bottom-width:thin}header nav,header nav ul,header nav ul li{white-space:nowrap;overflow:hidden}header nav{position:absolute;top:50%;right:15px;margin-top:10px;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);transform:translateY(-50%)}header nav ul li{display:inline-block;margin-right:10px;padding:10px}header nav ul li.last{margin:0}header nav ul li a{font-size:20px;font-family:Ubuntu,sans-serif;line-height:normal;color:#010000;text-decoration:none;-webkit-transition:10ms ease-in-out;-moz-transition:10ms ease-in-out;transition:10ms ease-in-out;cursor:pointer}header nav ul li a:hover{text-decoration:none;color:#0d98ba;-webkit-transition:10ms ease-in-out;-moz-transition:10ms ease-in-out;transition:10ms ease-in-out}body{height:500px;background:#fff}body p{display:flex;margin-bottom:70px;white-space:nowrap;background:#fff;margin-left:80px;margin-right:80px;margin-top:50px;padding-bottom:50px}body p0{margin-top:70px;padding-left:130px}body p1{display:flex;font-family:Ubuntu,sans-serif;margin-top:30px;padding-left:70px;font-size:50px;color:#010000}body p1 a{font-size:40px;color:#010000;font-family:Ubuntu,sans-serif;text-decoration:none}body p1 a:hover{text-decoration:none;color:#0d98ba;-webkit-transition:10ms ease-in-out;-moz-transition:10ms ease-in-out;transition:10ms ease-in-out}body p2{font-family:Ubuntu,sans-serif;font-weight:400;color:#585555;font-size:20px;padding-left:70px;margin-top:100px;height:10px;line-height:35px;position:absolute}body p2 u1{color:#f30}body p2 u1:hover{text-decoration:underline;color:#f96;-webkit-transition:10ms ease-in-out;-moz-transition:10ms ease-in-out;transition:10ms ease-in-out}body p2 u2{color:#93f}body p2 u2:hover{text-decoration:underline;color:#c9f;-webkit-transition:10ms ease-in-out;-moz-transition:10ms ease-in-out;transition:10ms ease-in-out}body p2 u3{color:#36f}body p2 u3:hover{text-decoration:underline;color:#09f;-webkit-transition:10ms ease-in-out;-moz-transition:10ms ease-in-out;transition:10ms ease-in-out}body p3{display:flex;margin-left:100px;margin-top:200px}body p3 .mammoth{margin-right:50px;opacity:1;transition:opacity .25s ease-in-out;-moz-transition:opacity .25s ease-in-out;-webkit-transition:opacity .25s ease-in-out}body p3 .mammoth:hover{opacity:.7}body p3 .google{margin-right:50px;opacity:1;transition:opacity .25s ease-in-out;-moz-transition:opacity .25s ease-in-out;-webkit-transition:opacity .25s ease-in-out}body p3 .google:hover{opacity:.7}body p3 .blueprint{opacity:1;transition:opacity .25s ease-in-out;-moz-transition:opacity .25s ease-in-out;-webkit-transition:opacity .25s ease-in-out}body p3 .blueprint:hover{opacity:.7}body .captions ul,body .captions ul li{margin-top:10px;font-size:20px;font-family:Ubuntu,sans-serif;white-space:nowrap;overflow:hidden;display:inline-block;margin-left:65px;padding-right:180px}body .captions ul .blueprint_cap,body .captions ul li .blueprint_cap{margin-left:100px}footer{height:100%;background:#010000}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: #010000;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid {
+  line-height: 24px;
+}
+
+header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background: #ffffff;
+  color: #ffffff;
+  height: 60px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+header nav,
+header nav ul,
+header nav ul li {
+  white-space: nowrap;
+  overflow: hidden;
+}
+header nav {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: 10px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+}
+header nav ul li.last {
+  margin: 0;
+}
+header nav ul li a {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  line-height: normal;
+  color: #010000;
+  text-decoration: none;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+  cursor: pointer;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: #0d98ba;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+}
+
+body {
+  height: 800px;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+body p {
+  width: 60%;
+  white-space: nowrap;
+}
+body p1 {
+  font-family: "Ubuntu", sans-serif;
+  width: 50%;
+  font-size: 50px;
+  color: #010000;
+}
+body p1 a {
+  font-size: 40px;
+  color: #010000;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+}
+body p1 a:hover {
+  text-decoration: none;
+  color: #0d98ba;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+}
+body p2 {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #585555;
+  font-size: 20px;
+  margin-top: 30px;
+  height: 150px;
+  line-height: 35px;
+  position: absolute;
+}
+body p2 u1 {
+  color: #FF3300;
+}
+body p2 u1:hover {
+  text-decoration: underline;
+  color: #FF9966;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+}
+body p2 u2 {
+  color: #9933FF;
+}
+body p2 u2:hover {
+  text-decoration: underline;
+  color: #CC99FF;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+}
+body p2 u3 {
+  color: #3366FF;
+}
+body p2 u3:hover {
+  text-decoration: underline;
+  color: #0099FF;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+}
+body p2 u4 {
+  color: #228B22;
+}
+body p2 u4:hover {
+  text-decoration: underline;
+  color: #32CD32;
+  -webkit-transition: 0.01s ease-in-out;
+  -moz-transition: 0.01s ease-in-out;
+  transition: 0.01s ease-in-out;
+}
+body p3 {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+body p3 .mammoth {
+  margin-right: 50px;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+body p3 .mammoth:hover {
+  opacity: 0.7;
+}
+body p3 .google {
+  margin-right: 50px;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+body p3 .google:hover {
+  opacity: 0.7;
+}
+body p3 .blueprint {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+body p3 .blueprint:hover {
+  opacity: 0.7;
+}
+body p4 {
+  display: block;
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+body p5 {
+  display: block;
+  margin-top: 1px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+body p6 {
+  display: block;
+  margin-top: 1px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  color: #585555;
+  font-size: 15px;
+}
+body .captions ul,
+body .captions ul li {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 65px;
+  padding-right: 180px;
+}
+body .captions ul .blueprint_cap,
+body .captions ul li .blueprint_cap {
+  margin-left: 100px;
+}
+body .card {
+  background-color: #F6F6F6;
+  border: none;
+  border-radius: 25px;
+}
+body .card:hover {
+  background-color: #F0F0F0;
+}
+body .card-img-top {
+  border-radius: 20px;
+}
+body .down-arrow {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 20px;
+}
+body .bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-bottom: 0px;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/*# sourceMappingURL=default.min.css.map */
