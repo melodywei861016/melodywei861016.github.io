@@ -76,7 +76,7 @@ class Homepage extends Component {
                   I built a first-party diagnostics Add-in for Excel that fetches runtime log info internally and displays it with a user-friendly web UI.
                   The app includes filter and search bar features.
                 </p6>
-                <a href="https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview" class="btn btn-primary" style={{backgroundColor: "#228B22", borderRadius: 25, marginTop: 15}}>More About Excel Addin</a>
+                <a href="https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview" class="btn btn-primary" style={{backgroundColor: "#228B22", borderRadius: 25, marginTop: 15}}>More About Excel Add-in</a>
               </div>
             </div>
         </div>
