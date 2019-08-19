@@ -23,8 +23,8 @@ class Homepage extends Component {
             <p2>
               <b>Hello! 👋 </b> I'm a senior studying Electrical Engineering and Computer Science at UC Berkeley.<br/>
               Currently looking for software engineer new grad positions for 2020 and am interested <br/> in frontend & mobile/web development.
-              Previously worked at <a><u1><b>Google</b></u1></a>, <a href="https://mammoth.la/"><u2><b>Mammoth Media</b></u2></a>, <br/>
-              and <a><u4><b>Microsoft</b></u4></a>. I also develop web/mobile apps for <a href="https://www.calblueprint.org"><u3><b>Blueprint, Technology for Nonprofits</b></u3></a>.<br/>
+              Previously worked at <a href="https://www.google.com/"><u1><b>Google</b></u1></a>, <a href="https://mammoth.la/"><u2><b>Mammoth Media</b></u2></a>, <br/>
+              and <a href="https://www.microsoft.com/"><u4><b>Microsoft</b></u4></a>. I also develop web/mobile apps for <a href="https://www.calblueprint.org"><u3><b>Blueprint, Technology for Nonprofits</b></u3></a>.<br/>
             </p2>
           </p>
         </div>
