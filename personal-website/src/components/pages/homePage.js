@@ -113,7 +113,7 @@ class Homepage extends Component {
         </div>
     </div>
     <div class="col-md-6" style={{display: "inline-block", marginTop: 30}}>
-      <div class="card" style={{ width: 590, height: 350}}>
+      <div class="card" style={{ width: 620, height: 350}}>
         <img class="card-img-top" src={Sfai} width="280" height="310" alt="Card image cap" style={{ marginLeft: 20, marginRight: 10, verticalAlign: "top", marginTop: 15 }}/>
         <div class="card-block" style={{display: "inline-block"}}>
           <p class="card-title">
