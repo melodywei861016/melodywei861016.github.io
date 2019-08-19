@@ -18,7 +18,8 @@
 !/storage/.keep
 
 /node_modules
-/build
+build/*
+!build/build.xml
 /yarn-error.log
 
 /public/assets
