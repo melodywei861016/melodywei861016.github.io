@@ -1,0 +1,163 @@
+.project-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.project-contents {
+    padding: 80px 205px;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 90px;
+}
+
+.project-title {
+    display: flex;
+    font-family: Varela, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 64px;
+    margin: 0;
+}
+
+.project-description {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+    opacity: 0.6
+}
+
+.project-subheader-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.project-overview-container {
+    margin: 10px 20px;
+    width: 50%;
+}
+
+.project-overview-title {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.project-overview-contents {
+    display: inline;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+}
+
+.my-contributions-container {
+    margin: 10px 20px;
+    width: 50%;
+}
+
+.my-contributions-title {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.my-contributions-contents {
+    display: inline;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+}
+
+.rebrand-changes-container {
+    margin: 10px 20px 0;
+}
+
+.rebrand-changes-title {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    line-height: px;
+    font-weight: 400;
+}
+
+.rebrand-logo-change {
+    width: 300px;
+    height: auto;
+}
+
+.rebrand-color-change {
+    width: 300px;
+    height: auto;
+}
+
+.rebrand-typography-change {
+    width: 300px;
+    height: auto;
+}
+
+.rebrand-screenshots-title {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+
+.rebrand-screenshots-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 80px;
+}
+
+.rebrand-screenshots {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 80px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.screenshot-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.screenshot-title {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+    margin: 0 20px 20px;
+}
+
+.screenshot-photo {
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+}

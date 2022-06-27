@@ -1,0 +1,123 @@
+.homepage-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.homepage-contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto 50px;
+    align-items: baseline;
+}
+
+.homepage-header {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    max-width: 1030px;
+    margin: 0 auto 200px;
+    padding: 0 20px;
+}
+
+.homepage-title {
+    display: flex;
+    font-family: Varela, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 34px;
+} 
+
+.homepage-description {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.homepage-description--text {
+    font-family: Varela, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #525252;
+    line-height: 40px;
+}
+
+.homepage-description--affirm {
+    font-family: Varela, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4e20f1;
+    line-height: 40px;
+}
+
+.homepage-description--music-tech {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #525252;
+    line-height: 40px;
+}
+
+.homepage-project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 30px 30px;
+    width: 100%;
+}
+
+.homepage-project-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.homepage-project-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #1a1b1f;
+    line-height: 34px;
+}
+
+.homepage-project-description {
+    width: 100%;
+    height: 20%;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #adb5bd;
+    line-height: 28px;
+}
+
+.homepage-project-link-container {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-project-container:hover {
+    cursor: pointer;
+}
+
+.homepage-project-photo {
+    display: flex;
+    max-width: 500px;
+    max-height: 347px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 7px -2px #000;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.homepage-project-photo:hover {
+    opacity: 0.7;
+    transition: opacity 0.1s ease-in-out;
+}

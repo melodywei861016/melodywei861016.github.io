@@ -1,0 +1,35 @@
+.navbar {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.nav-menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #222222;
+    padding: 9px 20px;
+    opacity: 0.6;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.nav-item:hover {
+    color: #32343a;
+    opacity: 0.9;
+}
+
+.nav-item--selected {
+    font-weight: 600;
+    line-height: 20px;
+    color: #1a1b1f;
+    opacity: 1;
+}
