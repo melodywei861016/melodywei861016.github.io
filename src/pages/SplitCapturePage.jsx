@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer.jsx';
 import NavBar from '../components/NavBar.jsx';
-import RebrandLogoChange from '../Assets/images/rebrand_logo_change.png';
-import RebrandColorChange from '../Assets/images/rebrand_color_change.png';
-import RebrandTypographyChange from '../Assets/images/rebrand_typography_change.png';
-import PromoScreenshot from '../Assets/images/promo_screenshot.png';
-import FinancingPackageScreenshot from '../Assets/images/financing_package_screenshot.png';
-import DnaScreenshot from '../Assets/images/dna_screenshot.png';
-import LoginScreenshot from '../Assets/images/login_screenshot.png';
-import './RebrandPage.css';
+import SplitCaptureRecording from '../Assets/videos/split_capture_recording.mov';
+import './SplitCapturePage.css';
 
 class RebrandPage extends Component {
   constructor(props) {
     super(props);
   };
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     return (
@@ -33,11 +31,10 @@ class RebrandPage extends Component {
                     Project Overview
                   </h3>
                   <p1 className="project-overview-contents">
-                    The Merchant Portal Rebrand Launch included logo, color, typography, 
-                    component style and size changes. As part of Affirm's new brand launch, 
-                    the Rebrand Project aims to increase <b>brand awareness</b> and <b>brand equity</b>, 
-                    as well as enable consumer experiences that <b>inspire and delight</b>. This 
-                    helps Affirm <b>compete more successfully</b> in the market.
+                    Split capture is a feature that enables a merchant to get paid incrementally as they are captured. 
+                    This brings Affirm's Direct API integration at parity with credit cards. Split Capture creates a 
+                    more consistent payment and reporting experience as merchants can charge and recognize revenue as 
+                    goods are fulfilled, similar to card networks.
                   </p1>
                 </div>
                 <div className="my-contributions-container">
@@ -45,43 +42,16 @@ class RebrandPage extends Component {
                     My Contributions
                   </h3>
                   <p1 className="my-contributions-contents">
-                    I led the project team to apply rebrand changes to Merchant Portal. 
-                    I also coordinated with designers and web team to facilitate and 
-                    confirm all the components, colors, and typography changes.
+                    I led the project team to implement frontend features for split capture and partial void, as part
+                    of the Split Capture GA Launch. I also designed the UI for the modals. This project has increased 
+                    Gross Merchandise Value by $250mm. The new split capture and partial void features also include 
+                    frontend error validation features that makes the user experience smoother. 
                   </p1>
                 </div>
               </div>
-              <div className="rebrand-changes-container">
-                <h3 className="rebrand-changes-title">
-                  Main Changes in the Rebrand – <b>Logo</b>,&nbsp;<b>Color</b>,&nbsp;<b>Typography</b>
-                </h3>
-                <img className="rebrand-logo-change" src={RebrandLogoChange} />
-                <img className="rebrand-color-change" src={RebrandColorChange} />
-                <img className="rebrand-typography-change" src={RebrandTypographyChange} />
-              </div>
-            </div>
-            <div className="rebrand-screenshots-container">
-              <h3 className="rebrand-screenshots-title">
-                Screenshots – Rebrand vs Before
-              </h3>
-              <div className="rebrand-screenshots">
-                <div className="screnshot-container">
-                  <p1 className="screenshot-title">Promotional Financing Page</p1>
-                  <img className="screenshot-photo" src={PromoScreenshot} />
-                </div>
-                <div className="screnshot-container">
-                  <p1 className="screenshot-title">Financing Pacakge Page</p1>
-                  <img className="screenshot-photo" src={FinancingPackageScreenshot} />
-                </div>
-                <div className="screnshot-container">
-                  <p1 className="screenshot-title">Home Page</p1>
-                  <img className="screenshot-photo" src={DnaScreenshot} />
-                </div>
-                <div className="screnshot-container">
-                  <p1 className="screenshot-title">Login Page</p1>
-                  <img className="screenshot-photo" src={LoginScreenshot} />
-                </div>
-              </div>
+              <video className="split-capture-video-container" controls autoPlay loop muted>
+                <source className="split-capture-video" src={SplitCaptureRecording} />
+              </video>
             </div>
             <Footer />
         </div>

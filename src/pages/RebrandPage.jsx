@@ -4,16 +4,25 @@ import NavBar from '../components/NavBar.jsx';
 import RebrandLogoChange from '../Assets/images/rebrand_logo_change.png';
 import RebrandColorChange from '../Assets/images/rebrand_color_change.png';
 import RebrandTypographyChange from '../Assets/images/rebrand_typography_change.png';
-import PromoScreenshot from '../Assets/images/promo_screenshot.png';
-import FinancingPackageScreenshot from '../Assets/images/financing_package_screenshot.png';
-import DnaScreenshot from '../Assets/images/dna_screenshot.png';
-import LoginScreenshot from '../Assets/images/login_screenshot.png';
+import PromoOld from '../Assets/images/screenshots/promo_old.png';
+import PromoNew from '../Assets/images/screenshots/promo_new.png';
+import FpOld from '../Assets/images/screenshots/fp_old.png';
+import FpNew from '../Assets/images/screenshots/fp_new.png';
+import HomeOld from '../Assets/images/screenshots/home_old.png';
+import HomeNew from '../Assets/images/screenshots/home_new.png';
+import LoginOld from '../Assets/images/screenshots/login_old.png';
+import LoginNew from '../Assets/images/screenshots/login_new.png';
+
 import './RebrandPage.css';
 
 class RebrandPage extends Component {
   constructor(props) {
     super(props);
   };
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     return (
@@ -61,37 +70,47 @@ class RebrandPage extends Component {
               </div>
             </div>
             <div className="rebrand-screenshots-container">
-              <a target="_blank" href="">
-                <div className="rebrand-screenshots-title-container">
-                  <h3 className="rebrand-screenshots-title">
-                    Screenshots – Rebrand vs Before 🔗
-                  </h3>
-                </div>
-              </a>
+              <div className="rebrand-screenshots-title-container">
+                <h3 className="rebrand-screenshots-title">
+                  Screenshots – Before vs After
+                </h3>
+              </div>
               <div className="rebrand-screenshots">
                 <div className="screenshot-container">
                   <div className="screenshot-title-container">
                     <p1 className="screenshot-title">Promotional Financing Page</p1>
                   </div>
-                  <img className="screenshot-photo" src={PromoScreenshot} />
+                  <div className="screenshots-grid">
+                    <img className="screenshot-photo" src={PromoOld} />
+                    <img className="screenshot-photo" src={PromoNew} />
+                  </div>
                 </div>
                 <div className="screenshot-container">
                   <div className="screenshot-title-container">
                     <p1 className="screenshot-title">Financing Pacakge Page</p1>
                   </div>
-                  <img className="screenshot-photo" src={FinancingPackageScreenshot} />
+                  <div className="screenshots-grid">
+                    <img className="screenshot-photo" src={FpOld} />
+                    <img className="screenshot-photo" src={FpNew} />
+                  </div>
                 </div>
                 <div className="screenshot-container">
                   <div className="screenshot-title-container">
                     <p1 className="screenshot-title">Home Page</p1>
                   </div>
-                  <img className="screenshot-photo" src={DnaScreenshot} />
+                  <div className="screenshots-grid">
+                    <img className="screenshot-photo" src={HomeOld} />
+                    <img className="screenshot-photo" src={HomeNew} />
+                  </div>
                 </div>
                 <div className="screenshot-container">
                   <div className="screenshot-title-container">
                     <p1 className="screenshot-title">Login Page</p1>
                   </div>
-                  <img className="screenshot-photo" src={LoginScreenshot} />
+                  <div className="screenshots-grid">
+                    <img className="screenshot-photo" src={LoginOld} />
+                    <img className="screenshot-photo" src={LoginNew} />
+                  </div>
                 </div>
               </div>
             </div>

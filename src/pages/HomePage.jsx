@@ -4,15 +4,23 @@ import Footer from '../components/Footer.jsx';
 import NavBar from '../components/NavBar.jsx';
 import Rebrand from '../Assets/images/rebrand.png';
 import SplitCaptureMainPhoto from '../Assets/images/split_capture_main_photo.png';
+import AccountCreationMainPhoto from '../Assets/images/account_creation_main_photo.png';
+import OnboardingFunnelMainPhoto from '../Assets/images/onboarding_funnel_main_photo.png';
+import MobileResponsiveMainPhoto from '../Assets/images/mobile_responsive_main_photo.png';
 import './HomePage.css';
 
 class HomePage extends Component {
   constructor(props) {
     super(props);
+    this.myRef = React.createRef();
   };
 
+  componentDidMount() {
+    this.myRef.current.scrollTo(0, 0);
+  }
+
   renderDescriptionComponent = () => (
-    <div className="homepage-header">
+    <div ref={this.myRef} className="homepage-header">
       <h1 className="homepage-title">Melody Wei</h1>
       <span className="homepage-description">
         <p1 className="homepage-description--text">
@@ -54,10 +62,11 @@ class HomePage extends Component {
           <div className="homepage-contents">
             {this.renderDescriptionComponent()}
             <div className="homepage-project-gallery">
-              {this.renderProjectGallery(Rebrand, 'Affirm Rebrand', 'Led project team to rebrand Merchant Portal', '/rebrand')}
-              {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Split Capture', 'Led project team to implement Split Capture on Merchant Portal', '/split-capture')}
-              {this.renderProjectGallery(Rebrand, 'Affirm Rebrand', 'Led project team to rebrand Affirm\'s Merchant Portal', '/rebrand')}
-              {this.renderProjectGallery(Rebrand, 'Affirm Rebrand', 'Led project team to rebrand Affirm\'s Merchant Portal', '/rebrand')}
+              {this.renderProjectGallery(Rebrand, 'Affirm Rebrand', 'Project Team Lead', '/rebrand')}
+              {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Mobile Responsive', 'Frontend Developer', '/mobile-responsive')}
+              {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Split Capture', 'Project Team Lead', '/split-capture')}
+              {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Account Creation Improvements', 'Project Developer', '/account-creation')}
+              {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Onboarding Improvements', 'Frontend Developer', '/onboarding-funnel')}
             </div>
           </div>
           <Footer />

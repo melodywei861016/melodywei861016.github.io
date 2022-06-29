@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import classnames from 'classnames';
-import MIcon from '../Assets/images/m_icon.png'
+import MIcon from '../Assets/images/icons/m_icon.png'
 import './NavBar.css';
 
 class NavBar extends Component {
@@ -43,6 +43,14 @@ class NavBar extends Component {
           >
             RESUME
           </Link>
+          <a
+            href="mailto:melodywei861016@gmail.com"
+            className={classnames({
+              ["nav-item"]: true,
+            })}
+          >
+            CONTACT ME
+          </a>
         </div>
       </div>
     );
