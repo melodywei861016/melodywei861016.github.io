@@ -22,16 +22,16 @@ class HomePage extends Component {
 
   renderDescriptionComponent = () => (
     <div ref={this.myRef} className="homepage-header">
-      <h1 className="homepage-title">Melody Wei</h1>
+      <h1 className="homepage-title">melody wei.</h1>
       <span className="homepage-description">
         <p1 className="homepage-description--text">
-          Hello! 👋 I am a Software Engineer at&nbsp;
+          hello! 👋 I am a software engineer at&nbsp;
         </p1>
         <p1 className="homepage-description--affirm">
-          Affirm, Inc.&nbsp;
+          affirm, inc.&nbsp;
         </p1>
         <p1 className="homepage-description--text">
-          based in San Francisco. Currently looking for opportunities in the&nbsp;
+          based in san francisco. currently looking for opportunities in the&nbsp;
         </p1>
         <p1 className="homepage-description--music-tech">
           music tech&nbsp;
