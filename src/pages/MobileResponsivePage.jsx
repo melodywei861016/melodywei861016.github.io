@@ -24,7 +24,7 @@ class MobileResponsivePage extends Component {
             <NavBar />
             <div className="project-contents">
               <div className="project-header">
-                  <h1 className="project-title">Affirm Merchant Portal<br/>Mobile Responsiveness</h1>
+                  <h1 className="project-title">Affirm Merchant Portal<br/>Mobile Responsive</h1>
                   <p1 className="project-description">
                       Implemented improvements on making Merchant Portal mobile responsive
                   </p1>

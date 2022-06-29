@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutPage from './pages/AboutPage.jsx';
 import HomePage from './pages/HomePage.jsx';
@@ -24,7 +24,6 @@ const App = () => {
         <Route path="/mobile-responsive" element={<MobileResponsivePage />} />
       </Routes>
     </Router>
-
   );
 }
 

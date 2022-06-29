@@ -137,9 +137,11 @@
     flex-direction: row;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .mobile-video {
     width: 40%;
+    min-width: 300px;
     height: auto;
 }
