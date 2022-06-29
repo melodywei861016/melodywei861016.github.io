@@ -7,6 +7,7 @@ import SplitCaptureMainPhoto from '../Assets/images/split_capture_main_photo.png
 import AccountCreationMainPhoto from '../Assets/images/account_creation_main_photo.png';
 import OnboardingFunnelMainPhoto from '../Assets/images/onboarding_funnel_main_photo.png';
 import MobileResponsiveMainPhoto from '../Assets/images/mobile_responsive_main_photo.png';
+import PersonalWebsiteMainPhoto from '../Assets/images/personal_website_main_photo.png';
 import './HomePage.css';
 
 class HomePage extends Component {
@@ -42,8 +43,8 @@ class HomePage extends Component {
     </div>
   );
 
-  renderProjectGallery = (imageSrc, title, description ,pageLink) => (
-    <Link className="homepage-project-link-container" to={pageLink}>
+  renderProjectGallery = (imageSrc, title, description, links = {}) => {
+    const childComponent = (
       <div className="homepage-project-container">
         <img className="homepage-project-photo" src={imageSrc} />
         <div className="homepage-project-text">
@@ -51,8 +52,22 @@ class HomePage extends Component {
           <p1 className="homepage-project-description">{description}</p1>
         </div>
       </div>
-    </Link>
-  );
+    );
+    if (links.pageLink) {
+      return (
+        <Link className="homepage-project-link-container" to={links.pageLink}>
+          {childComponent}
+        </Link>
+      );
+    } else if (links.externalLink) {
+      return (
+        <a className="homepage-project-link-container" href={links.externalLink} target="_blank">
+          {childComponent}
+        </a>
+      );
+    }
+    return childComponent;
+  };
 
   render() {
     return (
@@ -62,11 +77,12 @@ class HomePage extends Component {
           <div className="homepage-contents">
             {this.renderDescriptionComponent()}
             <div className="homepage-project-gallery">
-              {this.renderProjectGallery(Rebrand, 'Affirm Rebrand', 'Project Team Lead', '/rebrand')}
-              {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Mobile Responsive', 'Frontend Developer', '/mobile-responsive')}
-              {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Split Capture', 'Project Team Lead', '/split-capture')}
-              {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Account Creation Improvements', 'Project Developer', '/account-creation')}
-              {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Onboarding Improvements', 'Frontend Developer', '/onboarding-funnel')}
+              {this.renderProjectGallery(Rebrand, 'Affirm Rebrand', 'Project Team Lead', { pageLink: '/rebrand' })}
+              {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Mobile Responsive', 'Frontend Developer', { pageLink: '/mobile-responsive' })}
+              {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Split Capture', 'Project Team Lead', { pageLink: '/split-capture' })}
+              {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Account Creation Improvements', 'Project Developer', { pageLink: '/account-creation' })}
+              {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Onboarding Improvements', 'Frontend Developer', { pageLink: '/onboarding-funnel' })}
+              {this.renderProjectGallery(PersonalWebsiteMainPhoto, 'Personal Website', 'melodywei.me', { externalLink: 'https://github.com/melodywei861016/melodywei861016.github.io' })}
             </div>
           </div>
           <Footer />
