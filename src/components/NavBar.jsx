@@ -44,7 +44,7 @@ class NavBar extends Component {
                   ["nav-item--selected"]: selectedItem === 'home',
                 })}
               >
-                HOME
+                home
               </Link>
             </li>
             <li className="nav-li">
@@ -55,7 +55,7 @@ class NavBar extends Component {
                   ["nav-item--selected"]: selectedItem === 'about',
                 })}
               >
-                ABOUT
+                about
               </Link>
             </li>
             <li className="nav-li">
@@ -66,7 +66,7 @@ class NavBar extends Component {
                   ["nav-item--selected"]: selectedItem === 'resume',
                 })}
               >
-                RESUME
+                resume
               </Link>
             </li>
             <li className="nav-li">
@@ -76,7 +76,7 @@ class NavBar extends Component {
                   ["nav-item"]: true,
                 })}
               >
-                CONTACT ME
+                contact me
               </a>
             </li>
           </ul>

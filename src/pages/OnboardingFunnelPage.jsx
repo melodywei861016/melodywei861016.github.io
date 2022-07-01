@@ -18,7 +18,7 @@ class OnboardingFunnelPage extends Component {
 
   render() {
     return (
-      <body>
+      <>
         <div className="project-container">
             <NavBar />
             <div className="project-contents">
@@ -72,7 +72,7 @@ class OnboardingFunnelPage extends Component {
             </div>
             <Footer />
         </div>
-      </body>
+      </>
     );
 
   }

@@ -1,9 +1,16 @@
+.resume-page-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
 .resume-page-contents {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: auto;
     padding: 0 5% 30px;
+    height: 100%;
 }
 
 .resume-image {

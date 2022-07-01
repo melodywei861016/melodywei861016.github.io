@@ -19,7 +19,7 @@ class MobileResponsivePage extends Component {
 
   render() {
     return (
-      <body>
+      <>
         <div className="project-container">
             <NavBar />
             <div className="project-contents">
@@ -73,7 +73,7 @@ class MobileResponsivePage extends Component {
             </div>
             <Footer />
         </div>
-      </body>
+      </>
     );
 
   }
