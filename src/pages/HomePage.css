@@ -64,10 +64,16 @@
 
 .homepage-project-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, calc((100% - 50px) / 2)));
+    grid-template-columns: repeat(auto-fill, calc((100% - 50px) / 2));
     grid-gap: 50px;
     width: 100%;
     justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .homepage-project-gallery {
+        grid-template-columns: 1fr
+    }
 }
 
 .homepage-project-text {
@@ -110,8 +116,7 @@
 
 .homepage-project-photo {
     display: flex;
-    max-width: 500px;
-    max-height: 347px;
+    max-width: 700px;
     width: 100%;
     height: auto;
     box-shadow: 2px 2px 7px -2px #000;

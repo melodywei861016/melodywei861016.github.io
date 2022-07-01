@@ -71,7 +71,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <body>
+      <>
         <div className="homepage-container">
           <NavBar />
           <div className="homepage-contents">
@@ -87,7 +87,7 @@ class HomePage extends Component {
           </div>
           <Footer />
         </div>
-      </body>
+      </>
     );
 
   }

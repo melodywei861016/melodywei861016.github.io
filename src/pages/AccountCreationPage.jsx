@@ -15,7 +15,7 @@ class AccountCreationPage extends Component {
 
   render() {
     return (
-      <body>
+      <>
         <div className="project-container">
             <NavBar />
             <div className="project-contents">
@@ -56,7 +56,7 @@ class AccountCreationPage extends Component {
             </div>
             <Footer />
         </div>
-      </body>
+      </>
     );
 
   }

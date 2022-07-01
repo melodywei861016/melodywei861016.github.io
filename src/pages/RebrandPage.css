@@ -95,6 +95,9 @@
 }
 
 .rebrand-changes-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px 20px 100px;
 }
 
@@ -102,8 +105,16 @@
     display: flex;
     font-family: Montserrat, sans-serif;
     font-size: 22px;
-    line-height: px;
+    line-height: 28px;
     font-weight: 400;
+    width: 100%;
+    white-space: break-word;
+}
+
+.rebrand-change-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .rebrand-logo-change {
@@ -200,9 +211,15 @@
 
 .screenshots-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(768px, calc(100% - 60px)), calc((100% - 60px) / 2)));
+    grid-template-columns: repeat(auto-fill, calc((100% - 60px) / 2));
     grid-gap: 20px;
     width: 100%;
     justify-content: center;
     padding: 0 20px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .screenshots-grid {
+        grid-template-columns: 1fr;
+    }
 }

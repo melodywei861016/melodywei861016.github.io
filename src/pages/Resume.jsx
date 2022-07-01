@@ -8,7 +8,7 @@ import './Resume.css';
 class Resume extends Component {
   render() {
     return (
-        <body>
+        <>
             <div className="resume-page-container">
                 <NavBar selectedItem="resume"/>
                 <div className="resume-page-contents">
@@ -23,7 +23,7 @@ class Resume extends Component {
                 </div>
                 <Footer />
             </div>
-        </body>
+        </>
     );
 
   }

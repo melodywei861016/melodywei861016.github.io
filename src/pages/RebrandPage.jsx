@@ -26,7 +26,7 @@ class RebrandPage extends Component {
 
   render() {
     return (
-      <body>
+      <>
         <div className="project-container">
             <NavBar />
             <div className="project-contents">
@@ -62,11 +62,13 @@ class RebrandPage extends Component {
               </div>
               <div className="rebrand-changes-container">
                 <h3 className="rebrand-changes-title">
-                  Main Changes in the Rebrand: <b>Logo</b>,&nbsp;<b>Color</b>,&nbsp;<b>Typography</b>
+                  Main Changes in the Rebrand: Logo, Color, Typography
                 </h3>
-                <img className="rebrand-logo-change" src={RebrandLogoChange} />
-                <img className="rebrand-color-change" src={RebrandColorChange} />
-                <img className="rebrand-typography-change" src={RebrandTypographyChange} />
+                <div className="rebrand-change-images">
+                  <img className="rebrand-logo-change" src={RebrandLogoChange} />
+                  <img className="rebrand-color-change" src={RebrandColorChange} />
+                  <img className="rebrand-typography-change" src={RebrandTypographyChange} />
+                </div>
               </div>
             </div>
             <div className="rebrand-screenshots-container">
@@ -116,7 +118,7 @@ class RebrandPage extends Component {
             </div>
             <Footer />
         </div>
-      </body>
+      </>
     );
 
   }
