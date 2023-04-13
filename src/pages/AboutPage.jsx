@@ -7,7 +7,7 @@ import './AboutPage.css';
 class AboutPage extends Component {
   render() {
     return (
-        <body>
+        <>
             <div className="about-page-container">
                 <NavBar selectedItem="about"/>
                 <div className="about-page-contents">
@@ -51,7 +51,7 @@ class AboutPage extends Component {
                 </div>
                 <Footer />
             </div>
-        </body>
+        </>
     );
 
   }

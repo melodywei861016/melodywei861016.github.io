@@ -95,6 +95,9 @@
 }
 
 .rebrand-changes-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px 20px 100px;
 }
 
@@ -102,8 +105,16 @@
     display: flex;
     font-family: Montserrat, sans-serif;
     font-size: 22px;
-    line-height: px;
+    line-height: 28px;
     font-weight: 400;
+    width: 100%;
+    white-space: break-word;
+}
+
+.rebrand-change-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .rebrand-logo-change {
@@ -126,6 +137,7 @@
     width: fit-content;
     background-color: black;
     border-radius: 10px;
+    align-items: center;
     align-self: center;
 }
 
@@ -137,36 +149,38 @@
     font-weight: 400;
     margin: 20px;
     color: white;
+    text-decoration: none !important;
 }
 
 .rebrand-screenshots-container {
     display: flex;
     flex-direction: column;
     margin: 10px auto 80px;
-    background-color: #E5E5E5;
+    background-color: #f6e1fc;
     width: 100%;
     padding: 50px 0;
     flex: 1 1 100%;
+    align-items: center;
 }
 
 .rebrand-screenshots {
     display: flex;
     flex-direction: column;
     margin: 50px auto 80px;
-    flex-wrap: wrap;
     gap: 20px;
-    width: fit-content;
-    flex: 1 1 100%;
+    width: 100%;
+    justify-content: center;
 }
 
 .screenshot-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto 80px;
-    flex-wrap: wrap;
     gap: 20px;
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -191,8 +205,21 @@
 
 .screenshot-photo {
     display: flex;
-    max-width: 1300px;
     width: 100%;
     height: 100%;
-    flex: 1;
+}
+
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, calc((100% - 60px) / 2));
+    grid-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .screenshots-grid {
+        grid-template-columns: 1fr;
+    }
 }

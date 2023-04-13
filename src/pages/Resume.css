@@ -1,0 +1,42 @@
+.resume-page-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.resume-page-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    padding: 0 5% 30px;
+    height: 100%;
+}
+
+.resume-image {
+    width: 100%;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.download-button {
+    display: flex;
+    background-color: #7299ff;
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    align-self: flex-end;
+}
+
+.download-text {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    white-space: nowrap;
+}
