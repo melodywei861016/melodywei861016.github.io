@@ -17,7 +17,9 @@ class Pill extends Component {
 
   render() {
     return (
-
+        <div>
+            
+        </div>
     );
   }
 

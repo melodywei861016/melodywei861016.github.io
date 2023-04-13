@@ -22,13 +22,7 @@ class HomePage extends Component {
           Affirm, Inc.&nbsp;
         </p1>
         <p1 className="homepage-description--text">
-          based in San Francisco. Currently looking for opportunities in the&nbsp;
-        </p1>
-        <p1 className="homepage-description--music-tech">
-          music tech&nbsp;
-        </p1>
-        <p1 className="homepage-description--text">
-          space.
+          based in San Francisco. Currently looking for new software engineer opportunities that are based in SF, NY, LA, or remote. 
         </p1>
       </span>
     </div>
