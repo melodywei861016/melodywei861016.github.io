@@ -28,7 +28,7 @@ class HomePage extends Component {
           hello! 👋 I am a software engineer at&nbsp;
         </p1>
         <p1 className="homepage-description--affirm">
-          affirm, inc.&nbsp;
+          Affirm, Inc.&nbsp;
         </p1>
         <p1 className="homepage-description--text">
           based in San Francisco. Currently looking for new software engineer opportunities that are based in SF, NY, LA, or remote. 
@@ -65,23 +65,21 @@ class HomePage extends Component {
 
   render() {
     return (
-      <>
-        <div className="homepage-container">
-          <NavBar />
-          <div className="homepage-contents">
-            {this.renderDescriptionComponent()}
-            <div className="homepage-project-gallery">
-              {this.renderProjectGallery(Rebrand, 'Affirm Merchant Portal Rebrand', 'Project Team Lead', { pageLink: '/rebrand' })}
-              {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Merchant Portal Mobile Responsive', 'Frontend Developer', { pageLink: '/mobile-responsive' })}
-              {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Merchant Portal Split Capture', 'Project Team Lead', { pageLink: '/split-capture' })}
-              {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Merchant Account Creation Improvements', 'Project Developer', { pageLink: '/account-creation' })}
-              {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Merchant Onboarding Improvements', 'Frontend Developer', { pageLink: '/onboarding-funnel' })}
-              {this.renderProjectGallery(PersonalWebsiteMainPhoto, 'Personal Website', 'melodywei.me', { externalLink: 'https://github.com/melodywei861016/melodywei861016.github.io' })}
-            </div>
+      <div className="homepage-container">
+        <NavBar />
+        <div className="homepage-contents">
+          {this.renderDescriptionComponent()}
+          <div className="homepage-project-gallery">
+            {this.renderProjectGallery(Rebrand, 'Affirm Merchant Portal Rebrand', 'Project Team Lead', { pageLink: '/rebrand' })}
+            {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Merchant Portal Mobile Responsive', 'Frontend Developer', { pageLink: '/mobile-responsive' })}
+            {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Merchant Portal Split Capture', 'Project Team Lead', { pageLink: '/split-capture' })}
+            {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Merchant Account Creation Improvements', 'Project Developer', { pageLink: '/account-creation' })}
+            {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Merchant Onboarding Improvements', 'Frontend Developer', { pageLink: '/onboarding-funnel' })}
+            {this.renderProjectGallery(PersonalWebsiteMainPhoto, 'Personal Website', 'melodywei.me', { externalLink: 'https://github.com/melodywei861016/melodywei861016.github.io' })}
           </div>
-          <Footer />
         </div>
-      </>
+        <Footer />
+      </div>
     );
 
   }
