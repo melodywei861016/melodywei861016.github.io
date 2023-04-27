@@ -20,6 +20,7 @@ class Resume extends Component {
           </Link>
           <img className="resume-image" src={MelodyResume} />
         </div>
+        <Footer />
       </div>
     );
 

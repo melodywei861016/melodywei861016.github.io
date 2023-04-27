@@ -9,7 +9,7 @@
 .resume-page-contents {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 5% 30px;
 }
 
