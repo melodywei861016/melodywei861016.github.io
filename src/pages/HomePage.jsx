@@ -70,11 +70,6 @@ class HomePage extends Component {
         <div className="homepage-contents">
           {this.renderDescriptionComponent()}
           <div className="homepage-project-gallery">
-            {this.renderProjectGallery(Rebrand, 'Affirm Merchant Portal Rebrand', 'Project Team Lead', { pageLink: '/rebrand' })}
-            {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Merchant Portal Mobile Responsive', 'Frontend Developer', { pageLink: '/mobile-responsive' })}
-            {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Merchant Portal Split Capture', 'Project Team Lead', { pageLink: '/split-capture' })}
-            {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Merchant Account Creation Improvements', 'Project Developer', { pageLink: '/account-creation' })}
-            {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Merchant Onboarding Improvements', 'Frontend Developer', { pageLink: '/onboarding-funnel' })}
             {this.renderProjectGallery(PersonalWebsiteMainPhoto, 'Personal Website', 'melodywei.me', { externalLink: 'https://github.com/melodywei861016/melodywei861016.github.io' })}
           </div>
         </div>
@@ -86,3 +81,9 @@ class HomePage extends Component {
 }
 
 export default HomePage;
+
+// {this.renderProjectGallery(Rebrand, 'Affirm Merchant Portal Rebrand', 'Project Team Lead', { pageLink: '/rebrand' })}
+// {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Merchant Portal Mobile Responsive', 'Frontend Developer', { pageLink: '/mobile-responsive' })}
+// {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Merchant Portal Split Capture', 'Project Team Lead', { pageLink: '/split-capture' })}
+// {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Merchant Account Creation Improvements', 'Project Developer', { pageLink: '/account-creation' })}
+// {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Merchant Onboarding Improvements', 'Frontend Developer', { pageLink: '/onboarding-funnel' })}
