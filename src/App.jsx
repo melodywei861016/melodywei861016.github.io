@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutPage from './pages/AboutPage.jsx';
 import HomePage from './pages/HomePage.jsx';
+import Work from './pages/Work.jsx';
 import RebrandPage from './pages/RebrandPage.jsx';
 import SplitCapturePage from './pages/SplitCapturePage.jsx';
 import Resume from './pages/Resume.jsx';
@@ -16,6 +17,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route element={<Work />} path="/work" />
         <Route path="/resume" element={<Resume />} />
         <Route path="/rebrand" element={<RebrandPage />} />
         <Route path="/split-capture" element={<SplitCapturePage />} />

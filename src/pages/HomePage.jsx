@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import Footer from '../components/Footer.jsx';
 import NavBar from '../components/NavBar.jsx';
-import Rebrand from '../Assets/images/rebrand.png';
-import SplitCaptureMainPhoto from '../Assets/images/split_capture_main_photo.png';
-import AccountCreationMainPhoto from '../Assets/images/account_creation_main_photo.png';
-import OnboardingFunnelMainPhoto from '../Assets/images/onboarding_funnel_main_photo.png';
-import MobileResponsiveMainPhoto from '../Assets/images/mobile_responsive_main_photo.png';
-import PersonalWebsiteMainPhoto from '../Assets/images/personal_website_main_photo.png';
+import Github from '../Assets/images/icons/github.png';
+import Instagram from '../Assets/images/icons/instagram.png';
+import Linkedin from '../Assets/images/icons/linkedin.png';
+import Tiktok from '../Assets/images/icons/tiktok.png';
+import Email from '../Assets/images/icons/email.png';
+import Youtube from '../Assets/images/icons/youtube.png';
 import './HomePage.css';
 
 class HomePage extends Component {
@@ -27,11 +26,11 @@ class HomePage extends Component {
         <p1 className="homepage-description--text">
           hello! 👋 I am a software engineer at&nbsp;
         </p1>
-        <p1 className="homepage-description--affirm">
-          Affirm, Inc.&nbsp;
+        <p1 className="homepage-description--nerdwallet">
+          NerdWallet.&nbsp;
         </p1>
         <p1 className="homepage-description--text">
-          based in San Francisco. Currently looking for new software engineer opportunities that are based in SF, NY, LA, or remote. 
+          based in New York. Currently looking for new software engineer opportunities that are based in SF, NY, LA, or remote. 
         </p1>
       </span>
     </div>
@@ -69,11 +68,27 @@ class HomePage extends Component {
         <NavBar />
         <div className="homepage-contents">
           {this.renderDescriptionComponent()}
-          <div className="homepage-project-gallery">
-            {this.renderProjectGallery(PersonalWebsiteMainPhoto, 'Personal Website', 'melodywei.me', { externalLink: 'https://github.com/melodywei861016/melodywei861016.github.io' })}
-          </div>
         </div>
-        <Footer />
+        <div className="social-media-menu">
+            <a target="_blank" href="https://www.linkedin.com/in/wei-melody/" className="social-media-item">
+                <img src={Linkedin} width="40" height="40"/>
+            </a>
+            <a target="_blank" href="https://github.com/melodywei861016" className="social-media-item">
+                <img src={Github} width="40" height="40"/>
+            </a>
+            <a target="_blank" href="https://www.tiktok.com/@melodyweiii" className="social-media-item">
+                <img src={Tiktok} width="40" height="40"/>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCUnB5rduMjJ2Gf89DWdhcJA" className="social-media-item">
+                <img src={Youtube} width="40" height="40"/>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/melodyweiii/" className="social-media-item">
+                <img src={Instagram} width="40" height="40"/>
+            </a>
+            <a target="_blank" href="mailto:melodywei861016@gmail.com" className="social-media-item">
+                <img src={Email} width="40" height="40"/>
+            </a>
+        </div>
       </div>
     );
 
@@ -81,9 +96,3 @@ class HomePage extends Component {
 }
 
 export default HomePage;
-
-// {this.renderProjectGallery(Rebrand, 'Affirm Merchant Portal Rebrand', 'Project Team Lead', { pageLink: '/rebrand' })}
-// {this.renderProjectGallery(MobileResponsiveMainPhoto, 'Affirm Merchant Portal Mobile Responsive', 'Frontend Developer', { pageLink: '/mobile-responsive' })}
-// {this.renderProjectGallery(SplitCaptureMainPhoto, 'Affirm Merchant Portal Split Capture', 'Project Team Lead', { pageLink: '/split-capture' })}
-// {this.renderProjectGallery(AccountCreationMainPhoto, 'Affirm Merchant Account Creation Improvements', 'Project Developer', { pageLink: '/account-creation' })}
-// {this.renderProjectGallery(OnboardingFunnelMainPhoto, 'Affirm Merchant Onboarding Improvements', 'Frontend Developer', { pageLink: '/onboarding-funnel' })}

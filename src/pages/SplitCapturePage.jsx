@@ -5,10 +5,6 @@ import SplitCaptureRecording from '../Assets/videos/split_capture_recording.mov'
 import './SplitCapturePage.css';
 
 class RebrandPage extends Component {
-  constructor(props) {
-    super(props);
-  };
-
   componentDidMount() {
     window.scrollTo(0, 0);
   }

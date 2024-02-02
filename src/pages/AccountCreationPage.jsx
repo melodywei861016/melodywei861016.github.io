@@ -5,10 +5,6 @@ import AccountCreationRecording from '../Assets/videos/account_creation_recordin
 import './AccountCreationPage.css';
 
 class AccountCreationPage extends Component {
-  constructor(props) {
-    super(props);
-  };
-
   componentDidMount() {
     window.scrollTo(0, 0);
   }

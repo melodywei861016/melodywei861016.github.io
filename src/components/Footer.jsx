@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import classnames from 'classnames';
 import Github from '../Assets/images/icons/github.png';
 import Instagram from '../Assets/images/icons/instagram.png';
 import Linkedin from '../Assets/images/icons/linkedin.png';
@@ -16,7 +14,6 @@ class Footer extends Component {
   }
 
   render() {
-    const { selectedItem } = this.props;
     return (
       <div className="footer-container">
         <div className="social-media-menu">
@@ -45,14 +42,6 @@ class Footer extends Component {
       </div>
     );
   }
-}
-
-Footer.propTypes = {
-  selectedItem: PropTypes.string,
-}
-
-Footer.defaultProps = {
-  selectedItem: 'home',
 }
 
 export default Footer;

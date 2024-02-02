@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Footer from '../components/Footer.jsx';
 import NavBar from '../components/NavBar.jsx';
-import MelodyResume from '../Assets/images/melody_resume.jpg';
 import './Resume.css';
 
 class Resume extends Component {
@@ -18,7 +17,13 @@ class Resume extends Component {
               </p1>
             </div>
           </Link>
-          <img className="resume-image" src={MelodyResume} />
+          <iframe
+            title="Resume PDF"
+            src="https://drive.google.com/file/d/15AF6QCuP8klqrP5HEQLRUMBU5SU5IBRJ//preview"
+            width={800}
+            height={1120}
+            seamless
+          />
         </div>
         <Footer />
       </div>

@@ -16,10 +16,6 @@ import LoginNew from '../Assets/images/screenshots/login_new.png';
 import './RebrandPage.css';
 
 class RebrandPage extends Component {
-  constructor(props) {
-    super(props);
-  };
-
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -64,9 +60,9 @@ class RebrandPage extends Component {
                 Main Changes in the Rebrand: Logo, Color, Typography
               </h3>
               <div className="rebrand-change-images">
-                <img className="rebrand-logo-change" src={RebrandLogoChange} />
-                <img className="rebrand-color-change" src={RebrandColorChange} />
-                <img className="rebrand-typography-change" src={RebrandTypographyChange} />
+                <img className="rebrand-logo-change" src={RebrandLogoChange} alt="rebrand logo change" />
+                <img className="rebrand-color-change" src={RebrandColorChange} alt="rebrand color change" />
+                <img className="rebrand-typography-change" src={RebrandTypographyChange} alt="rebrand typography change" />
               </div>
             </div>
           </div>
@@ -82,8 +78,8 @@ class RebrandPage extends Component {
                   <p1 className="screenshot-title">Promotional Financing Page</p1>
                 </div>
                 <div className="screenshots-grid">
-                  <img className="screenshot-photo" src={PromoOld} />
-                  <img className="screenshot-photo" src={PromoNew} />
+                  <img className="screenshot-photo" src={PromoOld} alt="promo old" />
+                  <img className="screenshot-photo" src={PromoNew} alt="promo new" />
                 </div>
               </div>
               <div className="screenshot-container">
@@ -91,8 +87,8 @@ class RebrandPage extends Component {
                   <p1 className="screenshot-title">Financing Pacakge Page</p1>
                 </div>
                 <div className="screenshots-grid">
-                  <img className="screenshot-photo" src={FpOld} />
-                  <img className="screenshot-photo" src={FpNew} />
+                  <img className="screenshot-photo" src={FpOld} alt="fp old" />
+                  <img className="screenshot-photo" src={FpNew} alt="fp new" />
                 </div>
               </div>
               <div className="screenshot-container">
@@ -100,8 +96,8 @@ class RebrandPage extends Component {
                   <p1 className="screenshot-title">Home Page</p1>
                 </div>
                 <div className="screenshots-grid">
-                  <img className="screenshot-photo" src={HomeOld} />
-                  <img className="screenshot-photo" src={HomeNew} />
+                  <img className="screenshot-photo" src={HomeOld} alt="home old" />
+                  <img className="screenshot-photo" src={HomeNew} alt="home new" />
                 </div>
               </div>
               <div className="screenshot-container">
@@ -109,8 +105,8 @@ class RebrandPage extends Component {
                   <p1 className="screenshot-title">Login Page</p1>
                 </div>
                 <div className="screenshots-grid">
-                  <img className="screenshot-photo" src={LoginOld} />
-                  <img className="screenshot-photo" src={LoginNew} />
+                  <img className="screenshot-photo" src={LoginOld} alt="login old" />
+                  <img className="screenshot-photo" src={LoginNew} alt="login new" />
                 </div>
               </div>
             </div>
