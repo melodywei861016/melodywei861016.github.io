@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d98bb5bcde943810aeca",
-    "url": "/static/css/main.6329f217.chunk.css"
+    "revision": "430c70da836fde8d89fd",
+    "url": "/static/css/main.8ee08926.chunk.css"
   },
   {
-    "revision": "d98bb5bcde943810aeca",
-    "url": "/static/js/main.22a90f28.chunk.js"
+    "revision": "430c70da836fde8d89fd",
+    "url": "/static/js/main.bba888b9.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "31725bf5ab30db23cf23",
-    "url": "/static/js/2.94e96176.chunk.js"
+    "revision": "fb5c23eaa5d248667ad2",
+    "url": "/static/js/2.73d59f1a.chunk.js"
   },
   {
     "revision": "5b1ab40c3ebf83995164a971d7aa8377",
@@ -44,40 +44,40 @@ self.__precacheManifest = [
     "url": "/static/media/onboarding_package_confirmation_recording.a0b513a9.mov"
   },
   {
-    "revision": "24ba6c180e414dc24bbf34fe4c895f41",
-    "url": "/static/media/Varela-Regular.24ba6c18.ttf"
-  },
-  {
     "revision": "a9bf8ef62ed0df09717e5f672116fb16",
     "url": "/static/media/DidactGothic-Regular.a9bf8ef6.ttf"
-  },
-  {
-    "revision": "34de1239b12123b85ff1a68b58835a1f",
-    "url": "/static/media/Montserrat-Regular.34de1239.ttf"
   },
   {
     "revision": "aca6287f22eef510c1e622c97bb1e1e1",
     "url": "/static/media/Montserrat-Medium.aca6287f.ttf"
   },
   {
-    "revision": "a17f43cc60643d965636985afc00a221",
-    "url": "/static/media/Montserrat-Light.a17f43cc.ttf"
-  },
-  {
     "revision": "7ffeec2b4edb434d393875ffbe633c30",
     "url": "/static/media/Montserrat-SemiBold.7ffeec2b.ttf"
+  },
+  {
+    "revision": "24ba6c180e414dc24bbf34fe4c895f41",
+    "url": "/static/media/Varela-Regular.24ba6c18.ttf"
+  },
+  {
+    "revision": "34de1239b12123b85ff1a68b58835a1f",
+    "url": "/static/media/Montserrat-Regular.34de1239.ttf"
   },
   {
     "revision": "d14ad1035ae6da4e5a71eca362a8d696",
     "url": "/static/media/Montserrat-Bold.d14ad103.ttf"
   },
   {
-    "revision": "dc2f156b60f53c591fc0d2b98cbf01bf",
-    "url": "/static/media/Montserrat-ExtraBold.dc2f156b.ttf"
+    "revision": "a17f43cc60643d965636985afc00a221",
+    "url": "/static/media/Montserrat-Light.a17f43cc.ttf"
   },
   {
     "revision": "55e37a35525c63e130e76d588f2f5e8d",
     "url": "/static/media/Montserrat-Black.55e37a35.ttf"
+  },
+  {
+    "revision": "dc2f156b60f53c591fc0d2b98cbf01bf",
+    "url": "/static/media/Montserrat-ExtraBold.dc2f156b.ttf"
   },
   {
     "revision": "344fea7e70c37d2e5dd55332327efa46",
@@ -120,8 +120,16 @@ self.__precacheManifest = [
     "url": "/static/media/mobile_responsive_main_photo.40e4cb3d.png"
   },
   {
-    "revision": "00d07ec4c9bb9354f1831a05ddcdd00a",
-    "url": "/static/media/personal_website_main_photo.b25d17e9.png"
+    "revision": "fc0a40d3a8fee57ea958e535a3107699",
+    "url": "/static/media/nerdwallet_compare.36702333.png"
+  },
+  {
+    "revision": "8ffa6d8d945b41e0d6d9d8f94d754048",
+    "url": "/static/media/nerdwallet_roundup.dd6568cd.png"
+  },
+  {
+    "revision": "7f266e583d1433150e08027daf17ad6a",
+    "url": "/static/media/nerdwallet_bcc.2754b2b8.png"
   },
   {
     "revision": "aeffa0dd622053026d97d164961acd2a",
@@ -168,10 +176,6 @@ self.__precacheManifest = [
     "url": "/static/media/login_new.8d1f767d.png"
   },
   {
-    "revision": "b9759f1d6e6dd6e48d59f7d48f9f8271",
-    "url": "/static/media/melody_resume.e5f5af0c.jpg"
-  },
-  {
     "revision": "8f73a6cecc16dda1c2497b337642d65f",
     "url": "/static/media/activation_video.d981cea4.png"
   },
@@ -188,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/onboarding_funnel_blur_api.c4d22693.png"
   },
   {
-    "revision": "2d709726517565c8434fbaabad331a1b",
+    "revision": "1b154c8745db1425d5be617947efd0e8",
     "url": "/index.html"
   }
 ];
