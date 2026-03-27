@@ -9,7 +9,6 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "react": "^16.14.0",
-    "react-bootstrap-navbar": "^1.1.0",
     "react-dom": "^16.14.0",
     "react-locky": "^1.5.7",
     "react-pdf": "^5.7.2",
