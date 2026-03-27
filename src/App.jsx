@@ -10,6 +10,7 @@ import AccountCreationPage from './pages/AccountCreationPage.jsx';
 import './Assets/css/default.min.css';
 import OnboardingFunnelPage from './pages/OnboardingFunnelPage.jsx';
 import MobileResponsivePage from './pages/MobileResponsivePage.jsx';
+import ProtectedWorkRoute from './components/ProtectedWorkRoute.jsx';
 
 const App = () => {
   return (
@@ -17,13 +18,13 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route element={<Work />} path="/work" />
+        <Route path="/work" element={<ProtectedWorkRoute><Work /></ProtectedWorkRoute>} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/rebrand" element={<RebrandPage />} />
-        <Route path="/split-capture" element={<SplitCapturePage />} />
-        <Route path="/account-creation" element={<AccountCreationPage />} />
-        <Route path="/onboarding-funnel" element={<OnboardingFunnelPage />} />
-        <Route path="/mobile-responsive" element={<MobileResponsivePage />} />
+        <Route path="/rebrand" element={<ProtectedWorkRoute><RebrandPage /></ProtectedWorkRoute>} />
+        <Route path="/split-capture" element={<ProtectedWorkRoute><SplitCapturePage /></ProtectedWorkRoute>} />
+        <Route path="/account-creation" element={<ProtectedWorkRoute><AccountCreationPage /></ProtectedWorkRoute>} />
+        <Route path="/onboarding-funnel" element={<ProtectedWorkRoute><OnboardingFunnelPage /></ProtectedWorkRoute>} />
+        <Route path="/mobile-responsive" element={<ProtectedWorkRoute><MobileResponsivePage /></ProtectedWorkRoute>} />
       </Routes>
     </Router>
   );
