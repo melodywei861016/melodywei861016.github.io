@@ -10,7 +10,7 @@ app.use(cors());
 
 app.post('/api/check-password', (req, res) => {
   const { password } = req.body;
-  const workPassword = process.env.WORK_SECTION_PASSWORD || 'melody1016';
+  const workPassword = process.env.WORK_SECTION_PASSWORD || 'melodyspassword';
 
   if (password === workPassword) {
     res.status(200).json({ success: true, message: 'Password is correct' });
